@@ -1,0 +1,25 @@
+{
+  "name": "finlogger",
+  "version": "1.0.0",
+  "description": "FinLogger Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "start": "node server.js"
+  },
+  "author": "Keybhudda",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "chai": "^6.0.1",
+    "mocha": "^11.7.1",
+    "mongodb-memory-server": "^10.2.0",
+    "supertest": "^7.1.4"
+  }
+}
